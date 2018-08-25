@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+    width: 500px;
+    background-color:rgb(87, 35, 35);
+}
+.box{
+    display:grid;
+    width: 50vh;
+    height: 300px%;
+    grid-template-areas:
+    'header header header header header'
+    'happy cupcake tie tie sign'
+    'lorem cupcake tie tie sign'
+    'lorem mope mope light bacon'
+    'sax mope mope flower bacon';
+    grid-gap:10px;
+    padding:10px;
+    background-color: grey;
+}
+.box>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding:20px 0;
+    font-size: 30px;
+  }
+.a{
+    grid-area: header;
+}
+
+.c{
+    grid-area: happy;
+}
+.d{
+    grid-area: lorem;
+}
+.ub{
+    grid-area: sax;
+}
+.befe{
+    grid-area: cupcake;
+}
+.e{
+    grid-area: tie;
+}
+.g{
+    grid-area: sign;
+}
+.d p{
+    word-wrap: normal;
+}
+.i{
+    grid-area: mope;
+}
+.uj1{
+    grid-area: light;
+}
+.uj3{
+    grid-area: flower;
+}
+.uj2{
+    grid-area: bacon;
+}
+
+.box img{
+    object-fit: scale-down;
+    height:300px;
+    width: 300px;
+
+}
